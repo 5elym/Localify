@@ -104,9 +104,10 @@ def clean_youtube_title(raw_title):
     
     # Remove any extra whitespace left behind
     clean_title = clean_title.strip()
+    
+    parts = re.split(r'\s*-\s*', clean_title, maxsplit=1)
 
-    if " - " in clean_title:
-        parts = clean_title.split(" - ", 1) # Split only on the first hyphen
+    if len(parts) == 2:
         artist = parts[0].strip()
         track = parts[1].strip()
     else:
