@@ -16,3 +16,7 @@ env/
 .DS_Store
 .vscode/
 .idea/
+
+# Test files
+test/
+tests/

@@ -4,7 +4,8 @@ version = "1.0.0"
 description = "Download YouTube audio with metadata for Spotify Local Files"
 # This tells pip to automatically install these if the user doesn't have them
 dependencies = [
-    "yt-dlp"
+    "yt-dlp",
+    "mutagen"
 ]
 
 # This is the magic part that creates your terminal command
