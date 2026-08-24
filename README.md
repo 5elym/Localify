@@ -10,6 +10,10 @@ seamlessly added to Spotify via its Local Files feature
 - Adds metadata to mp3 files so that it is recognised in Spotify.
 - Can be used to just simply download songs from YouTube.
 
+## Installation
+
+`pip install yt-localify`
+
 ## Dependencies
 
 - [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) - Core engine that downloads the audio from YouTube.
