@@ -10,11 +10,9 @@ dependencies = [
     "mutagen"
 ]
 
-# This is the magic part that creates your terminal command
 [project.scripts]
 lcfy = "localify:main"
 
-# Standard boilerplate telling Python how to build the package
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
