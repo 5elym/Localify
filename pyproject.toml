@@ -1,7 +1,9 @@
 [project]
-name = "localify"
-version = "1.0.0"
-description = "Download YouTube audio with metadata for Spotify Local Files"
+name = "yt-localify"
+version = "0.1.0"
+description = "Wrapper for yt-dlp that is specifically for downloading song audio from YouTube for Spotify."
+authors = [{name = "Myles Swamy", email = "myles.swamy5@gmail.com"}]
+urls = {Homepage = "https://github.com/5elym/Localify"}
 # This tells pip to automatically install these if the user doesn't have them
 dependencies = [
     "yt-dlp",
